@@ -1,0 +1,117 @@
+Question 1: (Sum and Print)
+
+Given a range [a, b], you are to find the summation of all the odd integers in this range. For example, the summation of all the odd integers in the range [3, 9] is 3 + 5 + 7 + 9 = 24.
+
+Input 
+There can be at multiple test cases. The first line of input gives you the number of test cases, T (1≤T≤100). Then T test cases follow. Each test case consists of 2 integers a and b (0≤a≤b≤100) in two separate lines.
+
+Output 
+For each test case you are to print one line of output - the serial number of the test case followed by the summation of the odd integers in the range [a, b].
+
+Sample Input 
+2
+1
+5
+3
+5
+Sample Output 
+Case 1: 9
+Case 2: 8
+
+Question 2: (Remove Duplicate Numbers )
+
+Petya has an array a consisting of n integers. He wants to remove duplicate (equal) elements.
+
+Petya wants to leave only the rightmost entry (occurrence) for each element of the array. The relative order of the remaining unique elements should not be changed.
+
+Input
+The first line contains a single integer n (1≤n≤50) — the number of elements in Petya's array.
+
+The following line contains a sequence a1,a2,…,an (1≤ai≤1000) — the Petya's array.
+
+Output
+In the first line print integer x — the number of elements which will be left in Petya's array after he removed the duplicates.
+
+In the second line print x integers separated with a space — Petya's array after he removed the duplicates. For each unique element only the rightmost entry should be left.
+
+Examples
+Input
+6
+1 5 5 1 6 1
+Output
+3
+5 6 1 
+Input
+5
+2 4 2 4 4
+Output
+2
+2 4 
+Input
+5
+6 6 6 6 6
+Output
+1
+6 
+Note
+In the first example you should remove two integers 1, which are in the positions 1 and 4. Also you should remove the integer 5, which is in the position 2.
+
+In the second example you should remove integer 2, which is in the position 1, and two integers 4, which are in the positions 2 and 4.
+
+In the third example you should remove four integers 6, which are in the positions 1, 2, 3 and 4.
+
+Question 3: (C - Print String)
+
+Sakib Al Hasan is given a string t consisting of n lowercase letters and an integer number k.
+
+A substring is a contiguous sequence of characters within a string. Let's think of some substring of a string s with indices from l to r as s[l…r].
+
+Your task is to help Sakib Al Hasan constructing such string s of minimum possible length that there are exactly k positions i such that s[i…i+n−1]=t. In other words, your task is to construct such string s of minimum possible length that there are exactly k substrings of s equal to t.
+Input
+The first line of the input contains two integers n and k (1≤n,k≤50) — the length of Sakib Al Hasan's string t and the number of substrings.
+
+The second line of the input contains Sakib Al Hasan's string t consisting of exactly n lowercase Latin letters.
+Output
+Print such string s of minimum possible length that there are exactly k substrings of s equal to t.
+
+It is guaranteed that the answer is always unique.
+Examples
+Input 1
+3 4
+aba
+Output 1
+ababababa
+Input 2
+3 2
+cat
+Output 2
+catcat
+
+Question 4: (Circle in a polygon)
+
+See pdf
+
+Question 5: (Maximum Corresponding Value)
+
+You are given an array A[1], A[2], ..., A[N] . ( |A[i]| ≤ 15009 , 1 ≤ N ≤ 50007 ). A function is defined as follows:
+CorrespondingMax(x,y) = Max { a[i]+a[i+1]+...+a[j] ; x ≤ i ≤ j ≤ y }.
+Given M queries, your program must output the results of this function for these queries.
+
+Input
+The first line of the input file contains the integer N.
+In the second line, N numbers follow.
+The third line contains the integer M.
+M lines follow, where line i contains 2 numbers xi and yi.
+Output
+Your program should output the results of the M queries, one query per line.
+
+Example
+Input:
+3 
+-1 2 3
+1
+1 2
+
+Output:
+2
+
